@@ -22,12 +22,12 @@ that it might implement its own ways to take them into account.
 What we propose here is a model designed for medical images classification which is made by two parts: a Vision Transformer and a
 convolutional classificator. <br>
 
-# The proposed model <br>.
+# The proposed model <br>
 
 The model we propose here is a model made by two
 parts. The first part is a Vision Transformer based model that will
 be used for the generation of attention maps through the so-called
-mechanism of attention rollout1.<br> The second part is a 2D classificator that takes as input the very same concatenation of patches used
+mechanism of attention rollout.<br> The second part is a 2D classificator that takes as input the very same concatenation of patches used
 in the previous part but this time the input is concatenated with
 the attention maps generated for that input by the ViT. The dataset
 we use is the CT lung, and the patches feed into the ViT are a set
