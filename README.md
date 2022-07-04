@@ -20,4 +20,8 @@ essentially cheap to train. <br> Although a Transformer does not exploit
 the typically used image-specific inductive biases it should be noted
 that it might implement its own ways to take them into account.
 What we propose here is a model designed for medical images classification which is made by two parts: a Vision Transformer and a
-convolutional classificator.
+convolutional classificator. <br>
+# Work in progress <br>
+
+I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I developed so far.<br>
+I still need to train the Vision Transformer in order to generate the attention maps and then I will train the full model.
