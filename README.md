@@ -21,6 +21,19 @@ the typically used image-specific inductive biases it should be noted
 that it might implement its own ways to take them into account.
 What we propose here is a model designed for medical images classification which is made by two parts: a Vision Transformer and a
 convolutional classificator. <br>
+
+# The proposed model <br>.
+
+The model we propose here is a model made by two
+parts. The first part is a Vision Transformer based model that will
+be used for the generation of attention maps through the so-called
+mechanism of attention rollout1.<br> The second part is a 2D classificator that takes as input the very same concatenation of patches used
+in the previous part but this time the input is concatenated with
+the attention maps generated for that input by the ViT. The dataset
+we use is the CT lung, and the patches feed into the ViT are a set
+of 9 consecutive slices of a CT scan arranged in a 3x3 grid.<br> The
+aim of the model is to classify the scans containing a tumor mass
+depending on whether they are of genomic nature (binary classification).
 # Work in progress <br>
 
 I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I developed so far.<br>
