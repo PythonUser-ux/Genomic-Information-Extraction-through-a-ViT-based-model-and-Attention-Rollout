@@ -1,5 +1,8 @@
 # Genomic-Information-Extraction-through-a-ViT-based-model-and-Attention-Rollout
 
+I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I have implemented so far.<br>
+I still need to train the Vision Transformer in order to generate the attention maps and then I will train the full model.
+
 # Abstract
 
 Nowadays the implementation of Natural Language Processing applications - such as translators, document summarization or even
@@ -34,7 +37,3 @@ we use is the CT lung, and the patches feed into the ViT are a set
 of 9 consecutive slices of a CT scan arranged in a 3x3 grid.<br> The
 aim of the model is to classify the scans containing a tumor mass
 depending on whether they are of genomic nature (binary classification).
-# Work in progress <br>
-
-I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I have implemented so far.<br>
-I still need to train the Vision Transformer in order to generate the attention maps and then I will train the full model.
