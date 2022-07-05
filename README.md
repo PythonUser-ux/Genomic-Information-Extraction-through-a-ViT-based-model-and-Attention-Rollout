@@ -36,5 +36,5 @@ aim of the model is to classify the scans containing a tumor mass
 depending on whether they are of genomic nature (binary classification).
 # Work in progress <br>
 
-I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I developed so far.<br>
+I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I have implemented so far.<br>
 I still need to train the Vision Transformer in order to generate the attention maps and then I will train the full model.
