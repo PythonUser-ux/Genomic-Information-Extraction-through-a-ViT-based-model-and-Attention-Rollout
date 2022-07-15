@@ -1,7 +1,7 @@
 # Genomic-Information-Extraction-through-a-ViT-based-model-and-Attention-Rollout
 
-I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I have implemented so far.<br>
-I still need to train the Vision Transformer in order to generate the attention maps needed for the training of the full model.
+[comment]: <> (I am currently dedicated to this thesis work: give a look to My_Model.ipynb to see what I have implemented so far.<br>)
+[comment]: <> (I still need to train the Vision Transformer in order to generate the attention maps needed for the training of the full model.)
 
 # Abstract
 
